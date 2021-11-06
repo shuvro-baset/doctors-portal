@@ -1,3 +1,27 @@
 .banner{
     height: 500px;
 }
+.custom-btn{
+    width: 180px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background: rgb(145,238,180);
+    background: linear-gradient(90deg, rgba(145,238,180,1) 0%, rgba(92,245,212,1) 52%);
+}
+.banner-div{
+    background: rgba(92,245,212,1);
+    color: #fff;
+    border-radius: 5px;
+}
+.banner-div2{
+    background: #4a494d;
+    color: #fff;
+    border-radius: 5px;
+}
+.banner-icon{
+    color: #fff;
+    font-size: 30px;
+}
