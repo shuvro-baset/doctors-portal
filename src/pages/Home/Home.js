@@ -20,7 +20,11 @@ const Home = () => {
                             <img className="img-fluid" src={doctor} alt="" />
                         </Col>
                         <Col md={6}>
+                            <h3>askds</h3>
 
+                            <h3>lk</h3>
+                            <h1>d</h1>
+                            
                         </Col>
                     </div>
                 </Row>
