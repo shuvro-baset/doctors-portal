@@ -20,11 +20,10 @@ const Home = () => {
                             <img className="img-fluid" src={doctor} alt="" />
                         </Col>
                         <Col md={6}>
-                            <h3>askds</h3>
-
-                            <h3>lk</h3>
-                            <h1>d</h1>
-                            
+                            <h6>Appointment</h6>
+                            <h4>Make an Appointment</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, ex!</p>
+                            <button className="custom-btn">learn more</button>
                         </Col>
                     </div>
                 </Row>
