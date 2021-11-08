@@ -13,19 +13,19 @@ const Home = () => {
             <Services></Services>
 
 
-            <Container>
-                <Row>
-                    <div className="make-appointment">
+            <Container fluid>
+                <Row className="make-appointment mb-5">
+                    
                         <Col md={6}>
-                            <img className="img-fluid" src={doctor} alt="" />
+                            <img className="img-fluid appointment-img" src={doctor} alt="" />
                         </Col>
-                        <Col md={6}>
+                        <Col md={6} className="d-flex flex-column justify-content-center align-items-start text-white">
                             <h6>Appointment</h6>
                             <h4>Make an Appointment</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, ex!</p>
                             <button className="custom-btn">learn more</button>
                         </Col>
-                    </div>
+                    
                 </Row>
             </Container>
         </>

@@ -1,6 +1,12 @@
 .make-appointment{
-    background-image: url('../../images/bg.png');
+    background: url('../../images/bg.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: rgba(45, 58, 74, 0.9);
+    background-blend-mode: darken, luminosity;
+    margin-top: 175px;
+}
+.appointment-img{
+    margin-top: -110px;
 }
