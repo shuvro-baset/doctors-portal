@@ -1,6 +1,7 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import Banner from '../../components/Banner/Banner';
+import Footer from '../../components/Footer/Footer';
 import NavBar from '../../components/NavBar/NavBar';
 import Services from '../../components/Services/Services';
 import doctor from '../../images/doctor.png'
@@ -28,6 +29,8 @@ const Home = () => {
                     
                 </Row>
             </Container>
+
+            <Footer></Footer>
         </>
     );
 };
